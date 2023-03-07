@@ -1,0 +1,32 @@
+.page-container {
+  background-color: #ffffff;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.mode-card {
+  text-align: center;
+  border-radius: 10px;
+  padding: 24px;
+}
+.light-mode {
+  background-color: #ffffff;
+  color: #000000;
+  border: 1px solid #000000;
+}
+.dark-mode {
+  background-color: #000000;
+  color: #ffffff;
+}
+.change-mode-title {
+  font-size: 32px;
+  font-family: 'Roboto';
+}
+.change-mode-button {
+  border: none;
+  font-size: 14px;
+  padding: 15px;
+  border-radius: 10px;
+}
